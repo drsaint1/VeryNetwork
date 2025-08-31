@@ -3,27 +3,6 @@ import { mainnet, sepolia } from "wagmi/chains";
 
 export const veryMainnet = {
   id: 4613,
-  name: "Very Network",
-  nativeCurrency: {
-    decimals: 18,
-    name: "VERY",
-    symbol: "VERY",
-  },
-  rpcUrls: {
-    default: {
-      http: ["https://rpc.verylabs.io"],
-    },
-  },
-  blockExplorers: {
-    default: {
-      name: "Very Explorer",
-      url: "https://www.veryscan.io",
-    },
-  },
-} as const;
-
-export const veryMainnet = {
-  id: 4613,
   name: "Very Network Mainnet",
   nativeCurrency: {
     decimals: 18,
